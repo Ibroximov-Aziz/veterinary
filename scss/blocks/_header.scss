@@ -1,0 +1,251 @@
+li {
+    list-style: none;
+}
+
+:root {
+    --color-asosiy: #333333;
+    --color-text: #949494;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-text);
+}
+
+.addres--text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    text-decoration: none;
+
+}
+
+.addres {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 13px;
+    margin-bottom: 11px;
+    list-style: none;
+}
+
+.li:hover {
+    color: #FFBD54;
+}
+
+.li:active {
+    opacity: 0.6;
+    color: var(--color-text);
+}
+
+.l:hover {
+    color: #FFBD54;
+}
+
+.l:active {
+    opacity: 0.6;
+    color: var(--color-text);
+}
+
+.addres--li:first-child {
+    margin-right: 106px;
+
+}
+
+.addres--li:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    background-image: url(../img/house.svg);
+    background-size: contain;
+    margin-right: 9px;
+}
+
+.addres--li:nth-child(2) {
+    margin-right: 9px;
+
+}
+
+.addres--li:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/phone.svg);
+    background-size: contain;
+    margin-right: 9px;
+}
+
+.li {
+    margin-right: 9px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.li {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.li::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: rgba(255, 189, 84, 1);
+    border-radius: 50%;
+    margin-right: 9px;
+
+}
+
+.addres--li:nth-child(5)::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/Group.png);
+    margin-right: 7px;
+    margin-left: 98px;
+}
+
+.addres--li:nth-child(5) {
+    margin-right: 17px;
+}
+
+nav {
+    background-color: white;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* position: relative; */
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+
+nav .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.logo {
+    vertical-align: middle;
+    position: absolute;
+    top: -37px;
+    width: 178px;
+    height: 86px;
+    left: 0;
+    z-index: 2;
+}
+
+.logo:hover {
+    opacity: .7;
+}
+
+.logo:active {
+    opacity: .6;
+}
+
+.list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-right: 164px;
+    z-index: 10;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.list-link:hover {
+    border-bottom: 4px solid yellow;
+
+}
+
+.list-link:active {
+    opacity: .6;
+}
+
+.list-item {
+    margin-right: 55px;
+}
+
+.list-item:last-child {
+    margin-right: 0;
+}
+
+.nav-a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav-a::before {
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 20px;
+    background-image: url(../img/pet.svg);
+    background-size: contain;
+    margin-right: 5px;
+}

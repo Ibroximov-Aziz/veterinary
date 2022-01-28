@@ -1,0 +1,124 @@
+footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 61px;
+    padding-bottom: 55px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.footer-a:hover {
+    color: #FFBD54;
+    ;
+}
+
+.footer-a:active {
+    color: rgba(51, 51, 51, 0.7);
+
+}
+
+.texpfooter {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    margin-top: 3px;
+
+    color: #333333;
+}
+
+.p-footer {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    width: 157px;
+}
+
+.footer-a3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.p-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.p-f::before {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 16px;
+    background-image: url("../img/Vector.svg");
+    background-size: contain;
+    margin-right: 9px;
+}
+
+.footer-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-div::before {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 16px;
+    background-image: url("../img/Group\ \(2\).png");
+    background-size: contain;
+    margin-right: 14px;
+}
+
+.footer-div1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-div1::before {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 16px;
+    background-image: url("../img/Group\ \(2\).png");
+    background-size: contain;
+    margin-right: 9px;
+}
+
+.c {
+    position: absolute;
+    bottom: 23px;
+    right: 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5C5C5C;
+}
